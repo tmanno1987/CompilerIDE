@@ -1,0 +1,9 @@
+CLASS Pgm5{
+   CONST M = 13 , N = 52 ;
+   VAR X , Y;
+   READ X ;
+   IF X == M THEN { Y = N / X ;
+	WRITE Y }
+   ELSE { Y = N % X ;
+	WRITE Y }
+}

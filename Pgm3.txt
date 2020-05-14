@@ -1,0 +1,10 @@
+CLASS Pgm2 {
+	CONST A = 12 , B = 3 ;
+	VAR x , y , z , total ;
+	READ x ;
+	READ y ;
+	z = x + y ;
+	total = x / y ;
+	IF z == A THEN WRITE z ;
+	IF y != A THEN WRITE total ;
+}

@@ -1,0 +1,8 @@
+CLASS Pgm3 {
+	CONST X = 16 ;
+	VAR y , z , c ;
+	READ z ;
+	c = 5 ;
+	WHILE c > 0 DO z = z + c * 2 ;
+	WRITE z ;
+}

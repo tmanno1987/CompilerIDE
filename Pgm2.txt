@@ -1,0 +1,8 @@
+CLASS Pgm1 {
+    CONST car = 12 , dog = 15 ;
+    VAR cat , frog , animal ;
+    READ cat ;
+    READ frog ;
+    animal = cat * dog / frog + car ;
+    WRITE animal ;
+}
